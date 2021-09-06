@@ -1,0 +1,4 @@
+[04-Dec-2018 15:31:51 UTC] PHP Fatal error:  Class 'App\setting' not found in /home/rewardsboxnigeri/public_html/cadbury_portal/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 740
+[20-Dec-2018 11:53:49 UTC] PHP Fatal error:  Trait 'App\Traits\Purchase' not found in /home/rewardsboxnigeri/public_html/cadbury_portal/app/Http/Controllers/EventsController.php on line 21
+[20-Dec-2018 11:55:22 UTC] PHP Fatal error:  Trait 'App\Traits\Purchase' not found in /home/rewardsboxnigeri/public_html/cadbury_portal/app/Http/Controllers/EventsController.php on line 21
+[20-Dec-2018 11:56:04 UTC] PHP Fatal error:  Trait 'App\Traits\Purchase' not found in /home/rewardsboxnigeri/public_html/cadbury_portal/app/Http/Controllers/CinemaController.php on line 22

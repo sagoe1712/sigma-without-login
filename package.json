@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "@chenfengyuan/datepicker": "^1.0.0",
+    "angular": "^1.7.8",
+    "jquery": "^3.3.1",
+    "laravel-elixir-vueify": "^1.0.6",
+    "node-sass": "^4.12.0"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}

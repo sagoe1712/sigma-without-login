@@ -1,0 +1,326 @@
+body {
+    font-family: 'Roboto Slab', serif !important;
+}
+.sigma-price {
+    color: black;
+    font-weight: 400;
+}
+.sigma-price span {
+    color: #9FBA3B;
+}
+.sigma-green {
+    color: #9FBA3B !important;
+}
+.grey-text {
+    color: rgba(0, 0, 0, 0.507) !important;
+   
+}
+.modal-price .sigma-price {
+    font-size: 18px;
+}
+.modal-form-container label {
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.555);
+    font-weight: normal;
+    position: relative;
+    top: 18px;
+    left: 5px;
+}
+.modal-form-container .form-control {
+    border: none;
+    border-radius: 0px !important;
+    height: 50px !important;
+    font-size: 12px !important;
+    color: #414141;
+    box-shadow: 0px 3px 6px #5046AF0D !important;
+    opacity: 1;
+}
+.modal-form-container .form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.wish-list-bg h5 {
+    color: white;
+}
+.category-container a:hover {
+    text-decoration: none;
+    color: #9FBA3B !important;
+    
+}
+.category-listing-con :hover {
+    color: #9FBA3B;
+}
+.category-listing-con :active {
+    font-weight: bold;
+}
+.black-text{
+    color: black;
+}
+.my-paragraph {
+    font-size: 14px;
+}
+.cart-paragraph {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.profile-security-container p{
+    opacity: 0.8;
+}
+.cinema-bg {
+    background: #0A1A1F 0% 0% no-repeat padding-box !important;
+    opacity: 1;
+   
+}
+
+.meal-bg {
+    background-color: #0A1A1F !important;
+}
+.cinema-container {
+    padding: 3% 10%;
+    
+}
+.movie-icons {
+    position: fixed;
+}
+.redeem-movie h1 {
+    color: white;
+    /* font-size: 70px !important; */
+    font-weight: bold !important;
+    font-size: 4rem !important;
+}
+.redeem-movie p {
+    color: white;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+.redeem-event h1 {
+    color: black;
+    /* font-size: 70px !important; */
+    font-weight: bold !important;
+    font-size: 4rem !important;
+}
+.redeem-event p {
+    color: black;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.padding20{
+    padding: 20px !important;
+}
+
+.no-height{
+    height: auto !important;
+}
+
+.radio-toolbar input[type="radio"] {
+    display: none;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color: #45A6C4;
+    color: #fff;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+
+/*meal product page*/
+
+.sidebar .side-menu .head {
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    padding: 15px 17px;
+    background-color: #9FBA3B;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+
+.sidebar .side-menu nav li{
+    list-style: none !important;
+    padding: 15px 20px !important;
+}
+.sidebar .side-menu nav .nav > li > a {
+    padding: 15px 20px !important;
+    color: #666666;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+}
+
+.homebanner-holder {
+    width: calc(100% - 290px);
+}
+
+.sidebar .side-menu nav .nav > li:last-child {
+    border-bottom: none;
+}
+
+.sidebar .side-menu nav .nav > li > a:after {
+    color: #bababa;
+    content: "\f105";
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    line-height: 18px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 10px;
+    font-family: FontAwesome;
+}
+
+.meals_branch_food_category {
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.meal_item_container {
+    /* border: 1px solid rgba(000,000,000,.3); */
+    border-radius: 5px;
+    margin-bottom: 4em;
+    /* box-shadow: -7px 2px 10px -10px rgba(51, 51, 51, 0.56); */
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.meal_item_img_container {
+    height: 200px;
+    position: relative;
+}
+
+.meals_item_img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.meal_item_details {
+    padding: 10px 10px 10px;
+    font-size: 90%;
+}
+
+.meal_item_price_container {
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.checkout_options {
+    padding: 10px 0;
+}
+
+.sidebar .side-menu nav .nav > li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.sidebar .side-menu {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.textnotify {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #00aced;
+}
+
+.overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.textnotify_container {
+    position: relative;
+}
+
+.close_overlay{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.radio input {
+    width: 100px !important;
+    height: 100px !important;
+    opacity: 1 !important;
+}
+.off {
+    display: none !important;
+}
+
+.btn-grey {
+    background: #cbc9c9;
+    color: #fff;
+    font-weight: 400;
+    /* line-height: 30px; */
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    padding: 8px 14px;
+}
+/* .header-container {
+    background-color: red;
+    height: 100px;
+} */

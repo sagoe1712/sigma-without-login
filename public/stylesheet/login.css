@@ -1,0 +1,17 @@
+.sticky-header {
+    transition: opacity .5s ease, transform .5s ease; transform: translateY(-200%);
+   
+
+}
+
+.sticky-header-bar {transform: translate(0, 0)!important;
+   position: fixed;
+   margin-top: 0px;
+   z-index: 10000;
+   display: block;
+   top: 0px;
+   background: #45A6C4;
+   width: 100%;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+   }
